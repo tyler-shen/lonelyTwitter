@@ -1,5 +1,6 @@
 package ca.ualberta.cs.lonelytwitter;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Friends extends User {
@@ -23,5 +24,11 @@ public class Friends extends User {
 				System.out.println(value);
 			}
 		}
+	}
+
+	@Override
+	public void setUsername(String x) throws IOException {
+		// TODO Auto-generated method stub
+		
 	}
 }

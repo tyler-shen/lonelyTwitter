@@ -4,6 +4,7 @@ import java.util.Date;
 
 public abstract class LonelyTweetModel {
 	private String text;
+	@SuppressWarnings("unused")
 	private Date timestamp;
 	public String getText() {
 		return text;

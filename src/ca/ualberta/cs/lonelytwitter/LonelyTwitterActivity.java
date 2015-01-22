@@ -49,15 +49,16 @@ public class LonelyTwitterActivity extends Activity {
 	@Override
 	protected void onStart() {
 		
-		User u = new Reader();
+		//User u = new Reader();
 		
-		ArrayList<User> array = new ArrayList<User>();
+		//@SuppressWarnings("unused")
+		//ArrayList<User> array = new ArrayList<User>();
 		
-		try {
-			u.setUsername("joe");
-		} catch (IOException e) {
+		//try {
+		//	u.setUsername("joe");
+		//} catch (IOException e) {
 			
-		}
+		//}
 		
 		super.onStart();
 		String[] tweets = loadFromFile();
